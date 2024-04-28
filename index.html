@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Website</title>
+
+<style>
+body {
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #333;
+padding: 20px;
+text-align: center;
+color: white;
+}
+
+nav {
+background-color: #ccc;
+overflow: hidden;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+nav li {
+float: left;
+}
+
+nav li a {
+display: block;
+color: #333;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.book {
+float: left;
+padding: 20px;
+width: 30%;
+}
+
+.details {
+padding: 20px;
+float: right;
+width: 70%;
+}
+
+.price {
+color: #084B8A;
+font-size: 20px;
+}
+
+.rating {
+color: #f00;
+font-size: 18px;
+}
+
+form {
+padding: 20px;
+background-color: #eee;
+}
+
+label {
+display: block;
+margin-bottom: 10px;
+}
+
+input, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+}
+
+input[type=submit] {
+background-color: #333;
+color: white;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Book Website</h1>
+</header>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Books</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+
+<div class="book">
+<img src="book.jpg" alt="Book cover">
+</div>
+
+<div class="details">
+<h2>Book Title</h2>
+<p class="price">$19.99</p>
+<p>By Author Name</p>
+<p class="rating">4.5/5 stars</p>
+<p>Available: In Stock</p>
+</div>
+
+<form>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name"><br><br>
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="message">Message:</label>
+<textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+<input type="submit">
+</form>
+
+<footer>
+Copyright &copy; 2023
+</footer>
+
+<script>
+// JavaScript code here
+</script>
+
+</body>
+</html>
